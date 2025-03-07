@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIO</title>
+  <style> 
+    body {background-color:rgb(120, 106, 89)}
+    .hidden {display:none;}
+  </style>
+</head>
+<body>
+  <nav>
+    <img 
+    style=
+    "border-radius:50%;
+    object-fit:cover;
+    width:250px;
+    height: 210px;
+    display:block;
+    margin:auto;"
+    src="https://as2.ftcdn.net/v2/jpg/04/85/30/37/1000_F_485303736_sHIHNhQ0sZtnO11p5vcgM3HzKKQ1RNeO.jpg"
+    alt="picture of a person">
+  </nav>
+  <div class="container"></div>
+  <header>
+    <h1 style="color:rgb(11, 7, 77)">Hello, <br> I'm Brigitte, a Computer Engineering Student</h1>
+  </header>
+  <button id="revealbutton">ABOUT ME </button>
+  <div id="info" class="hidden">new info</div>
+  <script src="script.js"></script>
+ <!--section class="bio">
+    <h2><u><b>About Me</b></u></h2>
+    <p><i>Name</i>: Brigitte Aba Baidoo. 
+      <br><i>Age</i>:17</br>
+      <br><i>Programme of Study</i>: Computer Engineering </br>
+      <br><i>Level</i>:100</br>
+      <br><i>Hall of Residence</i>: University Hall</br>
+      <br><i>Hobbies</i>: Coding, reading
+      <br><i>Reason for programme of study</i>: To be able to contribute to advancements in Artificial Intelligence, Cyber Security  Robotics etc.</br> 
+    </p>
+    </section>  
+    <section class ="Contact">
+      <p><h3><u>Contact</u></h3><i>Email</i>:brigittebaidoo@gmail.com
+        <br><i>LinkedIn</i>: <a href="https://www.linkedin.com/in/brigittebaidoo" target="_blank">linkedin.com/in/brigittebaidoo</br></a></p>
+    </section--> 
+  </div>
+</body>
+</html>
+
